@@ -1,2 +1,3 @@
 # Toucans-Team-4
-Add-project-description-here | Voyage-5 | chingu.io
+Project Idea: TickyBot Clone
+Stack: HTML/CSS & Basic JavaScript
