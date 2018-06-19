@@ -7,15 +7,36 @@
   <body>
     <header>
       <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Features</a></li>
-        <li><a href="">Add to Slack</a></li>
+        <li>
+            <a href="#home">Home</a>
+        </li>
+        <li>
+            <a href="#about">About</a>
+        </li>
+        <li>
+            <a href="#features">Features</a>
+        </li>
+        <li>
+            <a href="https://slack.com/oauth/authorize?client_id=39189849459.249480535796&scope=commands,bot,users%2Eprofile%3Aread,im%3Aread,chat%3Awrite%3Abot,team%3Aread">Add to Slack</a>
+        </li>
       </ul>
     </header>
     
     <main>
-      <section class="page hero" id="home"></section>
+      <section class="page hero" id="home">
+          <div class="container container--flex">
+              <div class="hero__description">
+                  <h1><strong>Ticky</strong>Bot</h1>
+                  <p class="slogan">Let your team manage their support tickets 100%&nbsp;inside&nbsp;Slack</p>
+                  <a class="btn-cta btn-cta--light" href="https://slack.com/oauth/authorize?client_id=39189849459.249480535796&scope=commands,bot,users%2Eprofile%3Aread,im%3Aread,chat%3Awrite%3Abot,team%3Aread">
+                      <img src="5e594ad76535670e7f227f79c6b72799.svg" alt="">
+                      <span>Add to <strong>Slack</strong></span>
+                  </a>               
+              </div>
+              <div class="hero__bot">
+              </div>          
+          </div>
+      </section>
       <section class="page about" id="about"></section>
       <section class="page features" id="features"></section>
       <section class="page cta" id="cta"></section>
