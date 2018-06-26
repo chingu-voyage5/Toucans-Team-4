@@ -9,9 +9,10 @@ gulp.task("html", function() {
     console.log("Imagine something useful being done to your HTML here.");
 });
 
-gulp.task("main_page", function() {
-   return gulp.src("./tickybot_css/main_page").pipe(gulp.dest("./app/temp/styles")); 
+gulp.task("mainpage", function() {
+    console.log("Imagine Sass or PostCSS tasks running here.");
 });
+
 
 gulp.task("watch", function() {
     
@@ -19,7 +20,7 @@ gulp.task("watch", function() {
         gulp.start("html");
     });
     
-    watch("./tickybot_css/main_page/**/*.css", function() {
-        gulp.start("main_page");
-    });
+    watch("./app/tickybot_css/**/*.css", function() {
+        gulp.start("mainpage");
+    }); 
 });
