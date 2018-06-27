@@ -1,5 +1,9 @@
 var gulp = require("gulp"),
-    watch = require("gulp-watch");
+    watch = require("gulp-watch"),
+    postcss = require("gulp-postcss"),
+    autoprefixer = require("autoprefixer"),
+    cssvars = require("postcss-simple-vars"),
+    nested = require("postcss-nested");
 
 gulp.task("default", function() {
     console.log("Hooray - you created a Gulp task.");
@@ -10,7 +14,9 @@ gulp.task("html", function() {
 });
 
 gulp.task("mainpage", function() {
-    console.log("Imagine Sass or PostCSS tasks running here.");
+    return gulp.src("./app/tickybot_css/mainpage.css")
+        .pipe(postcss([cssvars, nested, autoprefixer]))
+        .pipe(gulp.dest("./app/temp/styles"));
 });
 
 
