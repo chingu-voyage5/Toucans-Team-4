@@ -1,0 +1,28 @@
+.hero {
+    position: relative;
+    background: #56bfec;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    min-height: calc(100vh - 12rem);
+    
+    &__title {
+        margin-top: 0;
+        margin-bottom: 2rem;
+        font-weight: 300;
+        font-size: 5rem;
+        color: #1D4352;
+    }
+    
+    &__slogan {
+        max-width: 30rem;
+        font-size: 1.875rem;
+        font-weight: 200;
+        line-height: 1.25;
+        color: #fff;
+        margin: auto;
+    }
+}
+

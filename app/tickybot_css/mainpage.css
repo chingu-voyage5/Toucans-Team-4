@@ -1,15 +1,5 @@
-$mainBlue: #2f5572;
-
-body {
-    color: $mainBlue;
-    font-family: sans-serif;
-    font-size: 12px;
-    columns: 300px 2;
-}
-
-.box {
-    a {
-        display: block;
-        padding: 10px;
-    }
-}
+@import "normalize.css";
+@import "base/_global";
+@import "base/_variables";
+@import "modules/_hero_description";
+@import "modules/_btn";
