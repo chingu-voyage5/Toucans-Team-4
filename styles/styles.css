@@ -13,38 +13,66 @@ body {
 #features {
   min-height: 50vh;
   background-color: #90ddaa;
+  padding: 1rem;
 }
 
 .features_container{
-  /*padding: 8px;*/
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 1rem;
 }
 
 .title {
-  width: 100%;
+  width: auto;
+  display: block;
   text-align: center;
+  margin-bottom: 2rem;
+  font-weight: lighter;
+  position: relative;
   font-size: 2.5rem;
   letter-spacing: -.125rem;
   line-height: 1.25;
-  margin-bottom: 2rem;
-  font-weight: lighter;
+}
+
+.title:after {
+  background-color: #55c0ec;
+  bottom: 0;
+  content: "";
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 185px;
 }
 
 h3 {
   font-weight: 300;
+  margin-top: 0;
 }
 
 .panel_container {
   display: flex;
   justify-content: space-between;
+  font-size: 1.25rem;
 }
 
-.panels {
+.panel_stretch {
+  margin: 1rem;
+}
+
+.panel {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   margin-bottom: 3rem;
-  padding: 0 8px;
-  width: 33.3%;
+  margin-right: 8px;
+  padding-right: 0px;
+  margin-left: 8px;
+}
+
+.three_panels {
+  flex: 1 0 calc(33.33333% - 2rem);
 }
 
 .card_img {
@@ -57,11 +85,13 @@ h3 {
   display:flex;
   align-items: center;
   justify-content: center;
+  padding: 48px;
 }
 
 .card_description {
   background-color: #fafafa;
   padding: 1rem;
+  text-align: center;
 }
 
 code {
