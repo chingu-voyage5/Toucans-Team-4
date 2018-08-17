@@ -1,0 +1,15 @@
+.btn {
+  background-color: $brightWhite;
+  color: $scaryBlack;
+  text-decoration: none;
+  width: 268px;
+  padding: 16px;
+  border-radius: 4px;
+  margin-left: 5rem auto;
+  font-size: 1.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  transition: .3s ease-in-out;
+}
