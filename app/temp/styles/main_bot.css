@@ -407,7 +407,8 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
-}
+  
+ }
 
 .hero-bot__bot-head {
     position: relative;
@@ -419,40 +420,93 @@ body {
             animation: robotHead 14s linear infinite;
   }
 
-.hero-bot__head-movements 0% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
-
-.hero-bot__head-movements 10% {-webkit-transform: rotate(10deg);transform: rotate(10deg);}
-
-.hero-bot__head-movements 20% {-webkit-transform: rotate(10deg);transform: rotate(10deg);}
-
-.hero-bot__head-movements 30% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
-
-.hero-bot__head-movements 40% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
-
-.hero-bot__head-movements 50% {-webkit-transform: scale(0.9);transform: scale(0.9);}
-
-.hero-bot__head-movements 60% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
-
-.hero-bot__head-movements 70% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
-
-.hero-bot__head-movements 80% {-webkit-transform: rotate(-10deg);transform: rotate(-10deg);}
-
-.hero-bot__head-movements 90% {-webkit-transform: rotate(-10deg);transform: rotate(-10deg);}
-
-.hero-bot__head-movements 100% {-webkit-transform: rotate(0deg);transform: rotate(0deg)};
-
 .btn {
   background-color: #FFF;
   color: #1D4352;
   text-decoration: none;
-  width: 268px;
   padding: 16px;
-  border-radius: 4px;
-  margin-left: 5rem auto;
-  font-size: 1.75rem;
   display: flex;
+  min-width: 50px;
+  width: 268px;
+  border-radius: 4px;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  -o-border-image: initial;
+     border-image: initial;
+  font-size: 1.75rem;
   justify-content: center;
   align-items: center;
-  margin: 0;
+  margin: 0px;
   transition: .3s ease-in-out;
+  line-height: 1;
+  box-sizing: inherit;
+  cursor: pointer;
+
+
+}
+
+.btn__number-sign {
+    margin-right: 16px;
+    width: 2.5ren;
+    transition: -webkit-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+    transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    max-height: 70px;
+  }
+
+.btn__click-me {
+    font-family: "Signika", sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+  }
+
+.btn--blue {
+    background-color: #2f5572;
+    color: #FFF;
+  }
+
+.page {
+  padding: 1rem;
+  display: block;
+}
+
+.page__container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+.page__title {
+    flex-basis: 100%;
+    font-size: 2.5rem;
+    letter-spacing: -0.125rem;
+    line-height: 1.25;
+    margin-bottom: 2rem;
+    position: relative;
+    text-align: center;
+  }
+
+.page__flex container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+.page__left-half {
+    flex-basis: 50%;
+    min-width: 300px;
+    margin: 1rem;
+  }
+
+.page__right-half {
+    flex-basis: 50%;
+    min-width: 300px;
+    margin: 1rem;
+  }
+
+.page-section {
+  padding: 4.5rem 0;
 }

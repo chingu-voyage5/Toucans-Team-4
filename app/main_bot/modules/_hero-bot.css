@@ -16,17 +16,4 @@
     animation: robotHead 14s linear infinite;
   }
   
-  &__head-movements {
-    0% {transform: rotate(0deg);}
-    10% {transform: rotate(10deg);}
-    20% {transform: rotate(10deg);}
-    30% {transform: rotate(0deg);}
-    40% {transform: rotate(0deg);}
-    50% {transform: scale(0.9);}
-    60% {transform: rotate(0deg);}
-    70% {transform: rotate(0deg);}
-    80% {transform: rotate(-10deg);}
-    90% {transform: rotate(-10deg);}
-    100% {transform: rotate(0deg)};
-  }
-}
+ }
