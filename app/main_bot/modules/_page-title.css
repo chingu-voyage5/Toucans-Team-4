@@ -1,0 +1,13 @@
+.page-title {
+  flex-basis: 100%;
+  font-size: 2.5rem;
+  font-family: 'Signika', cursive;
+  letter-spacing: -0.125rem;
+  line-height: 1.25;
+  margin-bottom: 2rem;
+  position: relative;
+  text-align: center;
+  display: block;
+  width: auto;
+  font-weight: lighter;
+}

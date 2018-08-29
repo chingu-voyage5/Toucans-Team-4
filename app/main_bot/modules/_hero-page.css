@@ -31,20 +31,28 @@
   
   &__title {
     margin-top: 0;
-    font-size: 5rem;
+    font-size: 2.4rem;
     letter-spacing: -.1875rem;
     line-height: 1;
     color: $scaryBlack;
     font-weight: 300;
-    margin-bottom: 2rem;    
+    margin-bottom: 2rem;
+    
+    @mixin atSmall {
+      font-size: 6rem;
+    }
   }
   
   &__slogan {
     max-width: 500px;
     color: $brightWhite;
-    font-size: 1.675rem;
-    font-weight: 300;
+    font-size: 1.4rem;
+    font-weight: 200;
     line-height: 1.25;
     margin: 0 0 2rem 0;
+    
+    @mixin atSmall {
+      font-size: 2.1rem;
+    }
   }
 }
