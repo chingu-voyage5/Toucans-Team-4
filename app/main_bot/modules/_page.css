@@ -4,32 +4,6 @@
   
   &__container {
     align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  
-  &__flex-container {
-    display: flex;
-    flex: 0 1 calc(50% -2rem);
-    margin: 1rem;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-  
-  
-  &__left-half {
-    flex-basis: 50%;
-    min-width: 300px;
-    margin: 1rem;
-    flex: 1 0 calc(50% - 2rem);
-  }
-  
-  &__right-half {
-    flex-basis: 50%;
-    min-width: 300px;
-    margin: 1rem;
-    flex: 1 0 calc(50% - 2ren);
+    display: block;
   }
 }

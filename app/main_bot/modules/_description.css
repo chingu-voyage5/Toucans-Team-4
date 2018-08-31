@@ -1,0 +1,12 @@
+.description {
+  font-weight: 300;
+  font-size: 1.0rem;
+  
+  @mixin atSmall {
+    font-size: 1.9rem;
+  }
+  
+  &--centered {
+    text-align: center;
+  }
+}

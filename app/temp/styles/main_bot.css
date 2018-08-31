@@ -348,6 +348,10 @@ body {
   height: 100%;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .hero-page {
   background: #56bfec;
   display: flex;
@@ -356,6 +360,7 @@ body {
   box-sizing: border-box;
   justify-content: center;
   padding: 1rem;
+  min-height: calc(100vh - 12rem);
 }
 
 .hero-page__container {
@@ -487,45 +492,26 @@ body {
 
 .page__container {
     align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-
-.page__flex-container {
-    display: flex;
-    flex: 0 1 calc(50% -2rem);
-    margin: 1rem;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-
-.page__left-half {
-    flex-basis: 50%;
-    min-width: 300px;
-    margin: 1rem;
-    flex: 1 0 calc(50% - 2rem);
-  }
-
-.page__right-half {
-    flex-basis: 50%;
-    min-width: 300px;
-    margin: 1rem;
-    flex: 1 0 calc(50% - 2ren);
+    display: block;
   }
 
 .page-section {
-  padding: 4.5rem 0;
+  padding: 1.2rem 0;
 }
+
+@media (min-width: 800px) {
+
+.page-section {
+    padding: 4.5rem 0
+}
+  }
 
 .page-section--green {
     background-color: #90ddaa;
   }
 
 .page-title {
-  flex-basis: 100%;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   font-family: 'Signika', cursive;
   letter-spacing: -0.125rem;
   line-height: 1.25;
@@ -537,10 +523,60 @@ body {
   font-weight: lighter;
 }
 
+@media (min-width: 530px) {
+
+.page-title {
+    font-size: 3.1rem
+}
+  }
+
 .wrapper {
+  overflow: hidden;
   padding-left: 18px;
   padding-right: 18px;
-  max-width: 1200px;
+  max-width: 1236px;
   margin-left: auto;
   margin-right: auto;
 }
+
+.description {
+  font-weight: 300;
+  font-size: 1.0rem;
+}
+
+@media (min-width: 530px) {
+
+.description {
+    font-size: 1.9rem
+}
+  }
+
+.description--centered {
+    text-align: center;
+  }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.row--gutters {
+    margin-right: -65px;
+  }
+
+.row--gutters > div {
+    padding-right: 65px;
+  }
+
+@media (min-width: 800px) {
+    .row__medium-left-half {
+    float: left;
+    width: 50%;
+  }
+  
+  .row__medium-right-half {
+    float: left;
+    width: 50%;
+  }
+  }

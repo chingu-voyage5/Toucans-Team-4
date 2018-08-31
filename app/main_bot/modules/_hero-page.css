@@ -6,6 +6,7 @@
   box-sizing: border-box;
   justify-content: center;
   padding: 1rem;
+  min-height: calc(100vh - 12rem);
   
   &__container {
     box-sizing: content-box;

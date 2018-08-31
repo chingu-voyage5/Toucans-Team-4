@@ -1,6 +1,5 @@
 .page-title {
-  flex-basis: 100%;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   font-family: 'Signika', cursive;
   letter-spacing: -0.125rem;
   line-height: 1.25;
@@ -10,4 +9,8 @@
   display: block;
   width: auto;
   font-weight: lighter;
+  
+  @mixin atSmall {
+    font-size: 3.1rem;
+  }
 }
