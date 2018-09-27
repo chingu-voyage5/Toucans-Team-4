@@ -8,7 +8,11 @@
   text-align: center;
   display: block;
   width: auto;
-  font-weight: lighter;
+  font-weight: 300;
+  
+  strong {
+    font-weight: 600;
+  }
   
   @mixin atSmall {
     font-size: 3.1rem;

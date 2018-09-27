@@ -39,6 +39,10 @@
     font-weight: 300;
     margin-bottom: 2rem;
     
+    strong {
+      font-weight: 600;
+    }
+    
     @mixin atSmall {
       font-size: 6rem;
     }
