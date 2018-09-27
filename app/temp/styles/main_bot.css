@@ -395,6 +395,10 @@ body {
     margin-bottom: 2rem;
   }
 
+.hero-page__title strong {
+      font-weight: 600;
+    }
+
 @media (min-width: 530px) {
 
 .hero-page__title {
@@ -520,8 +524,12 @@ body {
   text-align: center;
   display: block;
   width: auto;
-  font-weight: lighter;
+  font-weight: 300;
 }
+
+.page-title strong {
+    font-weight: 600;
+  }
 
 @media (min-width: 530px) {
 
@@ -567,6 +575,16 @@ body {
 
 .row--gutters > div {
     padding-right: 65px;
+  }
+
+.row--container {
+    display: table;
+    width: 100%;
+  }
+
+.row__column {
+    float: left;
+    width: 33.3%;
   }
 
 @media (min-width: 800px) {
