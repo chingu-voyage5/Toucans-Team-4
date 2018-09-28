@@ -13,12 +13,17 @@
   &--container {
     display: table;
     width: 100%;
+    align-self: stretch;
+    display: flex;
+    
   }
   
   &__column {
     float: left;
     width: 33.3%;
+    flex: 1 0 calc(33.33333% - 2rem);
   }
+}
   
   @mixin atMedium {
     &__medium-left-half {
@@ -29,6 +34,5 @@
   &__medium-right-half {
     float: left;
     width: 50%;
-  }
   }
 }
