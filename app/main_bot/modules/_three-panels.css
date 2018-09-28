@@ -1,0 +1,24 @@
+.three-panels {
+  
+  &__card-img {
+    width: 228px;
+    margin: 4rem 0;
+  }
+  
+  &__description {
+    background-color: $brightWhite;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+  }
+  
+  &--top {
+    background-color: $adultBlue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+  }
+  
+ 
+}

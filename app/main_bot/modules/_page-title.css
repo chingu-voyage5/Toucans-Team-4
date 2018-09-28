@@ -17,4 +17,9 @@
   @mixin atSmall {
     font-size: 3.1rem;
   }
+  
+  &--no-t-margin {
+    margin-top: 0;
+  }
 }
+
