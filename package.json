@@ -2,15 +2,19 @@
   "name": "toucans-team-4",
   "version": "1.0.0",
   "dependencies": {
+    "ajv": "^6.5.4",
+    "ajv-errors": "^1.0.0",
     "jquery": "^3.3.1",
     "jquery-smooth-scroll": "^2.2.0",
     "lazysizes": "^4.1.4",
+    "lodash": "^4.17.11",
     "normalize.css": "^8.0.0",
     "picturefill": "^3.0.2",
     "waypoints": "^4.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^9.1.5",
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.4",
     "babel-preset-env": "^1.7.0",
@@ -30,6 +34,7 @@
     "gulp-uglify": "^3.0.1",
     "gulp-usemin": "^0.3.29",
     "gulp-watch": "^5.0.1",
+    "postcss-flexbox": "^1.0.3",
     "postcss-hexrgba": "^1.0.1",
     "postcss-import": "^12.0.0",
     "postcss-mixins": "^6.2.0",
