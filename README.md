@@ -16,6 +16,6 @@ At the same time, we also decided to sprinkle in a few other things into the pro
 # Team Members
 The team consits of three highly motivated and skilled learners each with different sets of skills that they contributed to the completion of this project. 
 
-Project Manager: [dreampoetlee] (https://github.com/dreampoetlee)<br/>
-Developer: [emestabillo] (https://github.com/emestabillo)<br/>
-Developer: [elshilling] (https://github.com/elschilling)
+Project Manager: [dreampoetlee](https://github.com/dreampoetlee)<br/>
+Developer: [emestabillo](https://github.com/emestabillo)<br/>
+Developer: [elshilling](https://github.com/elschilling)
