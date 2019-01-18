@@ -6,7 +6,7 @@ Welcome Ladies and Gentelmen to our learning project for the Chingu Cohort Voyag
 
 # Links
 
-The original landing page can be found at:[TickyBot](https://tickybott.herokuapp.com/)
+The original landing page can be found at: [TickyBot](https://tickybott.herokuapp.com/)
 
 Our clone version can be found at: [Toucans-Team-4](https://github.com/chingu-voyage5/Toucans-Team-4)
 
