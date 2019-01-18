@@ -27,15 +27,15 @@ The team consits of three highly motivated and skilled learners each with differ
 
 <p align="left">
   <img width="150" height="150" src="images/profile/dreampoetlee.jpg">
-  Project Manager &amp; Developer: [Jay Lee](https://github.com/dreampoetlee)
+  Project Manager &amp; Developer: Jay Lee (https://github.com/dreampoetlee)
 </p>
 
 <p align="left">
   <img width="150" height="150" src="images/profile/emestabillo.jpg">
-  Developer: [Emmilie Estabillo](https://github.com/emestabillo)
+  Developer: Emmilie Estabillo (https://github.com/emestabillo)
 </p>
 
 <p align="left">
   <img width="150" height="150" src="images/profile/elschilling.jpg">
-  Developer: [Eduardo Luiz Schilling](https://github.com/elschilling)
+  Developer: Eduardo Luiz Schilling (https://github.com/elschilling)
 </p>
